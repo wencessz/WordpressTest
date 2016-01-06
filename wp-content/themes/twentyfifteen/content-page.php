@@ -7,7 +7,6 @@
  * @since Twenty Fifteen 1.0
  */
 ?>
-
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<?php
 		// Post thumbnail.

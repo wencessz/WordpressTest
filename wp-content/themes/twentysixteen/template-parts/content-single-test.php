@@ -6,11 +6,16 @@
  * @subpackage Twenty_Sixteen
  * @since Twenty Sixteen 1.0
  */
+$input_test = get_post_meta (get_the_ID(),'_tests_input_text',FALSE);
+
 ?>
+
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 	</header><!-- .entry-header -->
+
+	<?php echo $input_test[0]; ?>
 
 	<?php twentysixteen_excerpt(); ?>
 

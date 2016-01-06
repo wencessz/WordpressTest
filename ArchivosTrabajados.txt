@@ -1,0 +1,6 @@
+Archivos con los que trabajé:
+
+Modifique en el themes/twentysixteen/single.php para que lea los template de content-single-{post type} y poder trabajar sobre
+themes/twentysixteen/content-single-test.php y mostrar el campo custom "_tests_input_text"
+
+También cree el plugin post-types-plugin para crear el post "test y sus campos"

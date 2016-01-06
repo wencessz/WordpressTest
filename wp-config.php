@@ -20,16 +20,20 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'database_name_here');
+define('DB_NAME', 'wences_test');
+//define('DB_NAME', 'wordpress');
 
 /** MySQL database username */
-define('DB_USER', 'username_here');
+define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'password_here');
+define('DB_PASSWORD', 'rootroot');
+//define('DB_PASSWORD', '');
+
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'wordpresstest.cyzzbkmc8kww.us-west-2.rds.amazonaws.com:3306');
+//define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
@@ -46,14 +50,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'put your unique phrase here');
-define('SECURE_AUTH_KEY',  'put your unique phrase here');
-define('LOGGED_IN_KEY',    'put your unique phrase here');
-define('NONCE_KEY',        'put your unique phrase here');
-define('AUTH_SALT',        'put your unique phrase here');
-define('SECURE_AUTH_SALT', 'put your unique phrase here');
-define('LOGGED_IN_SALT',   'put your unique phrase here');
-define('NONCE_SALT',       'put your unique phrase here');
+define('AUTH_KEY',         '}4~#f@Z+sY&<Jp8fbXsc<Tw$38@Esqg%I%wt]c*,3|7)_#G$3=p|VKwD_.z*:2|3');
+define('SECURE_AUTH_KEY',  'D^?>G2MeBEA?u8}5+Z=+qN`=_DjUWW~?xLra-%U9Lr@.(SS|aKUZ,2|Fws3zzvtj');
+define('LOGGED_IN_KEY',    ':H}S93JzN?z)QPGRNeYW[<IjGPigG)IDB.KfH#FQX)^~+ko.X@>J!p|M*$Q!^3@v');
+define('NONCE_KEY',        ']>8#A*Yb.>f!X2.ia%alKr@13Ym6+LVXeHh]rIYJ)-/#RU|Ux9$|Z,M.cU]%XM+(');
+define('AUTH_SALT',        '0RO+qI]PQ_`V*M>k-1/p. n~uq448B# ?2nd*YRS65N/LmB:m@ACGse7R^/;@-`D');
+define('SECURE_AUTH_SALT', 'Fc-=V}JvkFF[o(zH4gcPJ)00F*mSC_i)Sd}%=:688v0;-mV6~OsMiw4Of_*Bcl<%');
+define('LOGGED_IN_SALT',   'grnUTSGe[z;NRbU>hPQ+|S8E|DbowCX2_XRn*D)W+c/CAz*6I$,o[MJl$7GIu(%w');
+define('NONCE_SALT',       'D.vbr*=t)Xz,Uu*)8=5T6,<h.o!z_e-4xO>x]/XJ3;J|#p+-c=v>!gW7FgQCY9l8');
 
 /**#@-*/
 
@@ -65,19 +69,7 @@ define('NONCE_SALT',       'put your unique phrase here');
  */
 $table_prefix  = 'wp_';
 
-/**
- * For developers: WordPress debugging mode.
- *
- * Change this to true to enable the display of notices during development.
- * It is strongly recommended that plugin and theme developers use WP_DEBUG
- * in their development environments.
- *
- * For information on other constants that can be used for debugging,
- * visit the Codex.
- *
- * @link https://codex.wordpress.org/Debugging_in_WordPress
- */
-define('WP_DEBUG', false);
+
 
 /* That's all, stop editing! Happy blogging. */
 
